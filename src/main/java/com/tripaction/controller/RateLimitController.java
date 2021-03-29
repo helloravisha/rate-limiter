@@ -76,8 +76,8 @@ public class RateLimitController {
     /**
      * This method acts as a API Gateway to the underlying API calls,  in a distributed environment
      * this complete component can sit either in load balancer , API Gateway or
-     * if its kubernetes cluster we can leverage service mesh and have it as a sidecar
-     * component with the
+     * if its kubernetes cluster we can leverage service mesh and have it sit in the  sidecar
+     * component.
      * <p>
      * in the best interest of the time , i am using this as an API here.
      *
