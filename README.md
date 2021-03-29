@@ -2,7 +2,7 @@
 
 ## Project Requirement
 
-write a rate limiting  microservice that throttles a given API with the given 
+Write a rate limiting  microservice that throttles a given API with the given 
 configuration 
 
 
