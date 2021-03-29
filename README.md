@@ -29,7 +29,7 @@ any many other frameworks, in the current system to best demonstrate API Testing
 , i had leveraged rest assured to validate all the API's , the only thing we need to do to validate the entire code 
 is to run the following test , which validates all the requires use cases. 
 
-<a href="https://github.com/helloravisha/rate-limiter/blob/main/src/test/java/com/tripaction/api/automation/RateLimiterAPIAutomationTest.java" target="_blank">RateLimiterAPIAutomationTest</a>
+<a href="https://github.com/helloravisha/rate-limiter/blob/main/src/test/java/com/tripaction/api/automation/RateLimiterAPIAutomationTest.java" target="_blank">API Automation Test</a>
 
 
 
