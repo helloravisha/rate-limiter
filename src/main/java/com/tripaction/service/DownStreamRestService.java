@@ -6,10 +6,10 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
 /**
- * This is a downstream service which is can be extended
- * as per the requirement. we will land in this down stream
+ * This is a downstream service which  can be extended
+ * as per the requirement. we will land in this downstream
  * service API's only once throttling check is done at
- * the API Gateway level or as per the design of the distrubuted
+ * the API Gateway level or as per the design of the distributed
  * system.
  *
  */

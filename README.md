@@ -2,7 +2,7 @@
 
 ## Project Requirement
 
-Using Java, write a rate limiting  microservice that throttles a given API with the given 
+write a rate limiting  microservice that throttles a given API with the given 
 configuration 
 
 
@@ -23,7 +23,7 @@ Following are the three API's exposed
 ##  Testing
 An improper  tested product will definitely impact the product deliverable. Therefore   testing is an integral part of any agile development principles. Today we have different framework like junit, mockito
 any many other frameworks, in the current system to best demonstrate API Testing end to end 
-, i had levarged rest assured to validate all the API's , the only thing we need to do to validate the entire code 
+, i had leveraged rest assured to validate all the API's , the only thing we need to do to validate the entire code 
 is to run the following test , which validates all the requires use cases. 
 
 * <B>RateLimiterAPIAutomationTest</B>
