@@ -33,7 +33,7 @@ public class RateLimitController {
 
     private static final Logger logger = LogManager.getLogger(RateLimitController.class);
 
-    // This can be configurable and later changed as per the storage implementation
+    // This can be configurable and can be  changed as per the storage implementation
     @Autowired
     @Qualifier("inmemory")
     private RateLimiter rateLimiter;
