@@ -43,9 +43,10 @@ will be placed different  as per the system design , we can pretty much
 leverage load balancers, Kuberntes service mesh side car for having throttling 
 component.
 * in memory maps used for state management  can be replaced/ leveraged  with different technologies like 
-redis cache , Hazle cast  , zoom keeper etc.
+redis cache , Hazle cast  , zoo keeper etc.
 * Different rate limiting algorithms can be leveraged for the best rate limiting, taking 
 different use cases in a distributed  environment. 
+* Log redactor can be configured to mask any PII and other privacy information. 
 
 
    
