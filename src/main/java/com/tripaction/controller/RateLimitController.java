@@ -51,7 +51,7 @@ public class RateLimitController {
      */
     @RequestMapping(value = "/enforce", method = RequestMethod.POST)
     public RateLimiterResponse enforceRateLimit(@RequestBody RatelimitConfig ratelimitConfig) {
-        RateLimiterResponse rateLimiterResponse = null;
+        RateLimiterResponse rateLimiterResponse = RateLimiterResponse.builder().build();
         try {
             if (ratelimitConfig == null) {
                 logger.error(" rate limit configuration not present");
@@ -64,6 +64,7 @@ public class RateLimitController {
             }
             logger.info(" enforce rate limiter for the API={}", ratelimitConfig.getApiPath());
             rateLimiter.configure(ratelimitConfig);
+            rateLimiterResponse.setSuccess(true);
         } catch (Exception exception) {
             logger.error(" exception enforcing rate limiter for the API={}", ratelimitConfig.getApiPath());
             throw new ResponseStatusException(
